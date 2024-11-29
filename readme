@@ -1,0 +1,53 @@
+
+
+2. MinerarBitcoins_2.py
+Descrição:Simula a mineração de bitcoins utilizando o algoritmo de prova de trabalho. Calcula o nonce correto para gerar um hash com os primeiros bits como zeros, baseado na entrada e no número de bits definidos.
+
+Como Testar:Execute o programa python MinerarBitcoins_2.py
+
+
+3. Termo_3: Simulação do site https://term.ooo/
+Descrição: Este programa simula o jogo de adivinhação de palavras, com funcionalidades semelhantes ao site https://term.ooo/. Ele sorteia uma palavra a partir de um arquivo e permite ao usuário adivinhar com feedback de cores (verde, amarelo e cinza).
+
+Como Testar: Crie um arquivo chamado palavras.txt: 
+Insira palavras de 5 a 8 letras, uma por linha como no exemplo a seguir: 
+sailor
+ametista
+cristal
+diamante
+natureza
+Execute o programa.
+
+O programa indicará a quantidade de letras da palavra sorteada.
+Digite palavras e receba feedback:
+Verde: Letra correta na posição correta.
+Amarelo: Letra correta, mas na posição errada.
+Cinza: Letra incorreta.
+Final do jogo: O programa informa se você ganhou ou perdeu.
+
+4. criptografar_4.py
+Descrição:Este programa criptografa um arquivo usando uma operação XOR e uma palavra-passe. O arquivo resultante pode ser descriptografado usando a mesma palavra-passe.
+
+Como Testar:
+Crie um arquivo de texto de origem:
+
+Exemplo: arquivo_origem.txt com o conteúdo:
+
+Esta é uma mensagem secreta.
+Execute o programa para criptografar:
+
+
+python programa.py arquivo_origem.txt senha arquivo_destino.txt
+Verifique o arquivo de destino:
+
+O arquivo arquivo_destino.txt terá conteúdo criptografado (ilegível).
+Descriptografe o arquivo:
+
+Para descriptografar, execute:
+python programa.py arquivo_destino.txt senha arquivo_decifrado.txt
+Verifique o arquivo decifrado:
+
+O arquivo arquivo_decifrado.txt deve conter o texto original.
+Erros comuns -
+Arquivo inexistente: Certifique-se de fornecer caminhos corretos.
+Sobrescrita de arquivo: Use um nome de destino único.

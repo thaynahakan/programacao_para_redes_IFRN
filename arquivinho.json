@@ -1,0 +1,12 @@
+[
+    {
+        "CIDR": "/4",
+        "Endereço da Rede": "224.0.0.0",
+        "Primeiro Host": "224.0.0.1",
+        "Último Host": "239.255.255.254",
+        "Broadcast": "239.255.255.255",
+        "Máscara de Rede": "240.0.0.0",
+        "Máscara Binária": "11110000000000000000000000000000",
+        "Total de Hosts": 268435454
+    }
+]
